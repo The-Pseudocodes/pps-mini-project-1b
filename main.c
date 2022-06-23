@@ -171,24 +171,31 @@ int enquire()
 int main()
 {
 	enquire();
-	printf("To Re-enquire type 1\n");
-	printf("To exit type 2\n");
-	printf("Enter choice : ");
-	int ch;
-	scanf("%d",&ch);
 	
-	if (ch==1)
-	{
-		enquire();
-	}
-	else if (ch==2)
-	{
-		printf("\nThank You");
-	}
-	else 
-	{
-		printf("Please enter a valid choice");
-	}
+	
+		printf("To Re-enquire type 1\n");
+		printf("To exit type 2\n");
+		printf("Enter choice : ");
+		int ch;
+		scanf("%d",&ch);
+		
+		if (ch==1)
+		{
+			enquire();
+			
+		}
+		else if (ch==2)
+		{
+			printf("\nThank You");
+			
+		}
+		else 
+		{
+			printf("Please enter a valid choice");
+			
+		}
+		
+	
 }
 
 
